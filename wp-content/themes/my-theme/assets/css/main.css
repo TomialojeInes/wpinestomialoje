@@ -1,0 +1,136 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333; 
+    margin:0;
+}
+
+/************* HEADER ****************/ 
+
+header {
+    background-color: #0d7619;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+
+ul {
+    display: flex; 
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 20px;
+} 
+
+
+/************* SECTION 1 ****************/ 
+
+.section-1 {
+    background-size: cover;
+    text-align: center;
+    min-height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    margin:0;
+}
+
+.section-chaine {
+    font-family: 'Dosis', sans-serif, bold;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #615858;        
+}
+
+.section-q {
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #9acf64;
+    padding-bottom: 20px;
+}
+
+.section-1 .link {
+    text-decoration: none;
+    color: white;
+    background-color: #395e1b;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    
+    
+}
+
+/************* SECTION 2 ****************/
+
+.section-2 {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 65rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-conf {
+    font-family: 'Dosis', sans-serif, bold;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #615858;
+    padding-bottom: 20px;
+}
+
+hr{
+    width: 50%;
+    height: 2px;
+    background-color: #f90;
+    border: none;
+
+}
+
+.txt {
+    font-family: 'Dosis', sans-serif, bold;
+    font-size: 1.6rem;
+    color: #615858; 
+    width: 800px;
+    word-spacing: 1.5px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+.section-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 100px;
+    height: 20vh;
+}
+
+
+/************* SECTION 3 ****************/
+
+/************* SECTION 4 ****************/
+
+/************* SECTION 5 ****************/
+
+/************* SECTION 6 ****************/
+
+

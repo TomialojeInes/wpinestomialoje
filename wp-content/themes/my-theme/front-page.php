@@ -58,6 +58,7 @@ if ( have_posts() ) {
     <?php      
     $banner_background_image = get_field('img-2');
     $programs = get_field('program');
+      $programs2 = get_field('program_2');
     
     ?>
     <div class="section-img" style="background-image: url(<?php echo $banner_background_image['url']; ?>)" >
@@ -83,14 +84,17 @@ if ( have_posts() ) {
             </div>
 
             <div class="colon-2">
-                <!--<div class="program">
-                    <span class="program-hour">8:30</span>
-                    <span class="program-description">Introduction par...</span>
-                </div>
-                <div class="program">
-                    <span class="program-hour">8:30</span>
-                    <span class="program-description">Introduction par...</span>
-                </div>-->
+                
+                <?php foreach($programs2 as $program_2){ ?>
+                
+                    <div class="program">
+                        <span class="program-hour2"><?php echo $program_2['hour2']; ?></span>
+                        <span class="program-description2"><?php echo $program_2['description2']; ?></span>
+                    </div>
+                    
+
+                <?php } ?>
+                
             </div>
         </div>
         
